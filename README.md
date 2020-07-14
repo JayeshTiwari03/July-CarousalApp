@@ -1,3 +1,7 @@
+Screenshot of this app created in ReactJS
+
+![Capture](https://github.com/JayeshTiwari03/July-CarousalApp/blob/master/Capture.PNG?raw=true)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

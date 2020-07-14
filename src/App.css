@@ -1,38 +1,81 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .title {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+*/
+h1 {
+  color: whitesmoke;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: teal;
+  padding: 10px 0 10px 0;
+  margin: auto;
+  margin-top:0;
+  height: auto;
+  width: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-style: normal;
+  padding-top: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img {
+  width: auto;
+  height: 500px;
+}
+.box {
+    align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.legend {
+  width: 10px;
+  padding-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.boxes{
+  padding-top: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.li1 {
+  background-image: url(http://cdn.home-designing.com/wp-content/uploads/2019/04/Lshaped-modern-sofa.jpg);
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin-right: 20px;
+  text-shadow: beige;
+}
+
+
+
+.li2 {
+  background-image: url(http://cdn.home-designing.com/wp-content/uploads/2019/04/modern-chandelier.jpg);
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin-right: 20px;
+
+}
+
+.li3 {
+  background-image: url(http://cdn.home-designing.com/wp-content/uploads/2019/04/modern-dining-room-1.jpg);
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
+.footer {
+  height: 30px;
+  font-style: italic;
+  text-align: left;
+  background-color: black;
+  color: aliceblue;
 }

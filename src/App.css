@@ -19,6 +19,9 @@ h1 {
   margin-top:0;
   height: auto;
   width: auto;
+  position: sticky;
+  top: 0;
+  z-index:2;
 }
 
 h2 {
